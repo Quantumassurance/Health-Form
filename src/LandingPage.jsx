@@ -9,7 +9,7 @@ import Bugsnag from '@bugsnag/js'
 import BugsnagPluginReact from '@bugsnag/plugin-react'
 
 
-import Logo from './Assets/usahq.png';
+import Logo from './Assets/qalogo.png';
 
 
 import Money from './Assets/Money.svg';
@@ -90,7 +90,7 @@ class LandingPage extends Component {
   <div className="relative z-10 container px-4 mx-auto">
     <div className="max-w-4xl pt-20">
       
-      <h2 className="mt-8 mb-8 text-5xl lg:text-7xl text-white font-bold" data-config-id="header">Compare Multiple Health Insurance Quotes</h2>
+      <h2 className="mt-8 mb-8 text-5xl lg:text-7xl text-white font-bold" data-config-id="header">Save On Your Health Insurance</h2>
       <form onSubmit={this.nextStep} >
 
 <div className="flex justify items-center formSection py-10">

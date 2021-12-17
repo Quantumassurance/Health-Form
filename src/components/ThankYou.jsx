@@ -34,22 +34,20 @@ class ThankYou extends Component {
             <div className=" mb-2 items-center justify-between">
               
               <div className="text-center justify-center align-center">
-                <span className="text-xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200 content-center justify-center">
-                  {firstName}'s Top Matches
+              <span className="text-xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200 content-center justify-center">
+                  Thank You {firstName}!
                 </span> 
+                <h2 className="text-lg font-bold inline-block pt-10"> A Quantum Assurance Agent will be with you shortly!</h2>
+                <p>If now isn't a good time to talk to an Agent about getting the best price on insrance for your business, you can call us at <a href="tel:8887013066"><b>(888) 701-3066</b> </a>at your convenience. We look foward to helping you save.
+ </p>
               </div>
             </div>
           
           </div>
-
-
-          <MA />
-
           </div>. 
 
 
           </div>
-          <ConnectStreams moduleId="1586" phoneNumber={tele}  />
 
           </div>
   
